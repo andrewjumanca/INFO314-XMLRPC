@@ -6,9 +6,11 @@ public class Calc {
         for (int arg : args) { result += arg; }
         return result;
     }
+
     public int subtract(int lhs, int rhs) { return lhs - rhs; }
-    public int multiply(int... args) {
-        int result = 0;
+
+    public int multiply(int[] args) {
+        int result = 1;
         for (int arg : args) { result *= arg; }
         return result;
     }
