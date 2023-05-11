@@ -1,6 +1,15 @@
 # INFO314-XMLRPC
 A homework assignment for my INFO314 course.
 
+
+## Interoperability Testing:
+Client.java was tested on Matthew Ramirez Server, while Ahmed Ghaddah tested his client on this repository's Server.java.
+All basic tests passed, though some exceptions were handled differently due to variation in calculator input, exception
+handling, and design choices.
+
+
+# INSTRUCTIONS & DOCUMENTATION:
+
 ## Goal
 You must build a client and server for a calculator application using the XML-RPC "standard". You are free to do this in Java, Python, or any other language you prefer, but it must follow the structure and format dictated by the XML-RPC website.
 
